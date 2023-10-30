@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class NilaiMahasiswa {
     public static void main(String[] args) {
-       
+        
         Scanner scanner = new Scanner(System.in);
        
         System.out.print("Masukkan Nama Anda: ");
@@ -31,7 +31,7 @@ public class NilaiMahasiswa {
     
         System.out.println("Nama: " + Nama);
         System.out.println("NIM: " + Nim);
-        System.out.println("Nilai matkul PBO Anda adalah:" + NilaiAkhir);
+        System.out.println("Nilai Matakuliah Pemrograman Berorientasi Objek: " + NilaiAkhir);
 
     
         scanner.close();
